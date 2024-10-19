@@ -7,12 +7,8 @@
 @media (max-width: 1199px) {
   .section-services__title {
     margin-bottom: 56px;
-  }
-}
-
-@media (max-width: 767px) {
-  .section-services__title {
-    max-width: 380px;
+    font-size: 28.3043px;
+    line-height: 37px;
   }
 }
 
