@@ -21,6 +21,7 @@
 @media (max-width: 767px) {
   .section-projects__title {
     margin-bottom: 34px;
+    max-width: 268px;
   }
 }
 
@@ -84,6 +85,7 @@
   .project__image {
     height: 446px;
     object-position: 15%;
+    border-radius: 24.2609px;
   }
 }
 

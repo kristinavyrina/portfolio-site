@@ -140,6 +140,7 @@
 @media (max-width: 767px) {
   .section-services__service-title {
     line-height: 30px;
+    font-size: 35px;
   }
 }
 

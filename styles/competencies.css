@@ -69,6 +69,7 @@
   .section-competencies__competence-title {
     font-size: 28px;
     line-height: 36px;
+    max-width: 306px;
   }
 }
 

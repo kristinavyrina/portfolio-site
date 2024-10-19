@@ -64,6 +64,7 @@ footer {
   .section-footer__content-title {
     font-size: 18px;
     line-height: 20px;
+    max-width: 290px;
   }
 }
 
@@ -135,7 +136,7 @@ footer {
 
 @media (max-width: 767px) {
   .section-footer__right-copyright {
-    font-size: 16px;
+    font-size: 13px;
     line-height: 18px;
   }
 }

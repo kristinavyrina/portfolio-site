@@ -24,8 +24,8 @@ header {
 @media (max-width: 767px) {
   .wrapper {
     height: 716px;
-    background-size: 60%;
-    background-position: center right;
+    background-size: 50%;
+    background-position: bottom right;
   }
 }
 
@@ -127,7 +127,7 @@ header {
 
 @media (max-width: 767px) {
   .header-aboutme__title {
-    max-width: 353px;
+    max-width: 376px;
   }
 }
 
