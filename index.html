@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="resources/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="resources/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="resources/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="wrapper">
+          <div class="header-wrapper">
+            <a class="header-logo" href="">KRISTINA </a>
+            <nav class="header-nav">
+              <ul class="header-nav__list">
+                <li>
+                  <a class="header-nav__link" href="#projects"> ПОРТФОЛИО</a>
+                </li>
+                <li>
+                  <a class="header-nav__link" href="#competencies"
+                    >КОМПЕТЕНЦИИ</a
+                  >
+                </li>
+                <li>
+                  <a class="header-nav__link" href="#services">УСЛУГИ</a>
+                </li>
+                <li>
+                  <a class="header-nav__link" href="#contacts">КОНТАКТЫ</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="js-burger-btn burger-btn">
+              <div class="burger-btn__line-first"></div>
+              <div class="burger-btn__line"></div>
+            </div>
+          </div>
+
+          <div class="header-aboutme">
+            <p class="header-aboutme__description">
+              Разрабатываю имиджевые сайты для малого и среднего бизнеса,
+              которые повышают престиж компании и позволяют выделиться на фоне
+              конкурентов
+            </p>
+          </div>
+          <div class="header-aboutme__title">
+            <h1>Привет, я Кристина — фронтенд разработчик и дизайнер сайтов</h1>
+          </div>
+        </div>
+      </div>
+
+      <div class="js-burger burger">
+        <div class="burger__content">
+          <div class="burger-inner">
+            <a class="burger-logo header-logo" href="">KRISTINA</a>
+            <nav class="burger-nav">
+              <ul class="burger-nav__list">
+                <li>
+                  <a href="#projects" class="burger-nav__link"> ПОРТФОЛИО</a>
+                </li>
+                <li>
+                  <a href="#competencies" class="burger-nav__link"
+                    >КОМПЕТЕНЦИИ</a
+                  >
+                </li>
+                <li>
+                  <a href="#services" class="burger-nav__link">УСЛУГИ</a>
+                </li>
+                <li>
+                  <a href="#contacts" class="burger-nav__link">КОНТАКТЫ</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="js-burger__content">
+              <p class="burger__for-contact">для связи:</p>
+              <ul class="burger__row">
+                <li class="burger__social-network">
+                  <a
+                    href="https://t.me/vki_kristina"
+                    target="_blank"
+                    class="burger__social-network-link"
+                    >telegram</a
+                  >
+                </li>
+                <li class="burger__social-network">
+                  <a
+                    href="mailto:kv6543778@gmail.com"
+                    class="burger__social-network-link"
+                    >mail</a
+                  >
+                </li>
+                <li class="burger__social-network">
+                  <a
+                    href="https://www.instagram.com/evrika.kris/"
+                    target="_blank"
+                    class="burger__social-network-link"
+                    >instagram</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section-projects">
+        <div class="container">
+          <h2 id="projects" class="section-projects__title">
+            Самые свежие проекты
+          </h2>
+          <ul class="section-projects__list">
+            <li class="section-projects__item">
+              <a
+                class="section-projects__item-box"
+                target="_blank"
+                href="https://kristinavyrina.github.io/Metrika/"
+              >
+                <img
+                  class="project__image"
+                  src="./resources/project-metrica.png"
+                  alt="Проект студии дизайна Метрика"
+                />
+                <div class="section-projects__item-wrapper">
+                  <p class="section-projects__item-label">дизайн интерьера</p>
+                </div>
+                <h3 class="section-projects__item-title">Метрика</h3>
+                <p class="section-projects__item-text">верстка, настройка</p>
+              </a>
+            </li>
+
+            <li class="section-projects__item">
+              <a class="section-projects__item-box">
+                <img
+                  class="project__image"
+                  src="./resources/project-nothing-ear.png"
+                  alt="Проект интернет-магазина Nothing Store"
+                />
+                <div class="section-projects__item-wrapper">
+                  <p class="section-projects__item-label">
+                    презентация продукта
+                  </p>
+                </div>
+                <h3 class="section-projects__item-title">Nothing</h3>
+                <p class="section-projects__item-text">верстка, настройка</p>
+              </a>
+            </li>
+
+            <li class="section-projects__item">
+              <a class="section-projects__item-box">
+                <img
+                  class="project__image"
+                  src="./resources/project-toptrip.png"
+                  alt="Проект сайта путешествий TOPTRIP"
+                />
+                <div class="section-projects__item-wrapper">
+                  <p class="section-projects__item-label">заказ путешествий</p>
+                </div>
+                <h3 class="section-projects__item-title">TOPTRIP</h3>
+                <p class="section-projects__item-text">верстка</p>
+              </a>
+            </li>
+          </ul>
+          <a
+            class="projects__btn"
+            target="_blank"
+            href="https://github.com/kristinavyrina"
+            >Смотреть все проекты</a
+          >
+        </div>
+      </section>
+
+      <section class="section-competencies">
+        <div class="container">
+          <h2 id="competencies" class="section-competencies__title">
+            Мои компетенции
+          </h2>
+          <ul class="section-competencies__list">
+            <li class="section-competencies__competence">
+              <div class="section-competencies__competence-wrapper">
+                <h3
+                  class="section-competencies__competence-title section-competencies__competence-title-html"
+                >
+                  HTML и CSS
+                </h3>
+                <p class="section-competencies__competence-description">
+                  это основа фронтенд разработки. Умение создавать и правильно
+                  структурировать HTML-документы, а также применять стили к этим
+                  документам на CSS, является обязательным навыком для каждого
+                  фронтенд разработчика.
+                </p>
+              </div>
+            </li>
+            <li class="section-competencies__competence">
+              <div class="section-competencies__competence-wrapper">
+                <h3
+                  class="section-competencies__competence-title section-competencies__competence-title-js"
+                >
+                  JavaScript
+                </h3>
+                <p class="section-competencies__competence-description">
+                  это язык программирования, который используется для создания
+                  динамического и интерактивного пользовательского интерфейса.
+                  Хороший фронтенд разработчик должен быть знаком с основами
+                  JavaScript, включая работу с DOM-деревом, асинхронными
+                  запросами и манипуляцией данными на стороне клиента.
+                </p>
+              </div>
+            </li>
+            <li class="section-competencies__competence">
+              <div class="section-competencies__competence-wrapper">
+                <h3
+                  class="section-competencies__competence-title section-competencies__competence-title-frameworks"
+                >
+                  Работа с библиотеками и фреймворками
+                </h3>
+                <p class="section-competencies__competence-description">
+                  фронтенд разработчики должны быть знакомы с различными
+                  библиотеками и фреймворками, такими как React, Angular, Vue и
+                  другими. Умение использовать готовые решения, адаптировать их
+                  под нужды проекта и расширять их функциональность, является
+                  очень важным навыком.
+                </p>
+              </div>
+            </li>
+            <li class="section-competencies__competence">
+              <div class="section-competencies__competence-wrapper">
+                <h3
+                  class="section-competencies__competence-title section-competencies__competence-title-adaptive"
+                >
+                  Разработка для мобильных устройств и адаптивная верстка
+                </h3>
+                <p class="section-competencies__competence-description">
+                  фронтенд разработчики должны быть знакомы с различными
+                  библиотеками и фреймворками, такими как React, Angular, Vue и
+                  другими. Умение использовать готовые решения, адаптировать их
+                  под нужды проекта и расширять их функциональность, является
+                  очень важным навыком.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section-services">
+        <div class="container">
+          <h3 id="services" class="section-services__title">
+            Помогаю реализовать широкий спектр задач
+          </h3>
+          <ul class="section-services__list">
+            <li class="section-services__service">
+              <div
+                class="section-services__service-image service-image-service1"
+              ></div>
+
+              <div class="section-services__service-box">
+                <div class="section-services__service-wrapper">
+                  <h2 class="section-services__service-title">
+                    Разработка сайта под ключ
+                  </h2>
+                </div>
+                <div class="section-services__service-wrapper">
+                  <p class="section-services__service-description">
+                    Это создание дизайн веб-сайтов, созданный для удобства
+                    пользователя и решения бизнес-задач Сайты должны быть
+                    понятными и удобными, ведь чем понятнее сайт, тем быстрее
+                    пользователь совершит целевое действие
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="section-services__service">
+              <div
+                class="section-services__service-image service-image-service2"
+              ></div>
+
+              <div class="section-services__service-box">
+                <div class="section-services__service-wrapper">
+                  <h2 class="section-services__service-title">
+                    Верстка сайтов
+                  </h2>
+                </div>
+                <div class="section-services__service-wrapper">
+                  <p class="section-services__service-description">
+                    Это процесс создания HTML-документов и применения к ним
+                    стилей на CSS. Фронтенд разработчик может помочь создать
+                    привлекательный и удобный интерфейс для вашего сайта
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="section-services__service">
+              <div
+                class="section-services__service-image service-image-service3"
+              ></div>
+              <div class="section-services__service-box">
+                <div class="section-services__service-wrapper">
+                  <h2 class="section-services__service-title">
+                    Разработка мобильного интерфейса
+                  </h2>
+                </div>
+                <div class="section-services__service-wrapper">
+                  <p class="section-services__service-description">
+                    Это процесс создания интерактивных элементов на странице с
+                    помощью JavaScript. Фронтенд разработчик может помочь
+                    создать динамический и удобный пользовательский интерфейс
+                    для вашего сайта или приложения.
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section-contacts" id="contacts">
+        <div class="container">
+          <h4 class="section-contacts__forms-title">
+            Для связи со мной заполните простую форму
+          </h4>
+          <ul class="section-contacts__list">
+            <li class="section-contacts__form">
+              <input
+                class="input"
+                type="text"
+                name="name"
+                placeholder="Имя Фамилия"
+              />
+            </li>
+            <li class="section-contacts__form">
+              <input
+                class="input"
+                type="text"
+                name="email"
+                placeholder="example@mail.com"
+              />
+            </li>
+          </ul>
+          <a href="" class="section-contacts__link">Отправить</a>
+        </div>
+      </section>
+      <footer>
+        <div class="container">
+          <ul class="section-footer__list">
+            <li class="section-footer__content">
+              <p class="section-footer__content-title">
+                Портфолио фронтенд-разработчика Кристины Выриной
+              </p>
+            </li>
+            <li class="section-footer__content">
+              <ul class="section-footer__social-media-list">
+                <li class="section-footer__social-media">
+                  <a
+                    class="section-footer__social-media-link"
+                    href="mailto:kv6543778@gmail.com"
+                    target="_blank"
+                    >mail</a
+                  >
+                </li>
+                <li class="section-footer__social-media">
+                  <a
+                    class="section-footer__social-media-link"
+                    href="https://t.me/vki_kristina"
+                    target="_blank"
+                    >telegram</a
+                  >
+                </li>
+                <li class="section-footer__social-media">
+                  <a
+                    class="section-footer__social-media-link"
+                    href="https://www.instagram.com/evrika.kris/"
+                    target="_blank"
+                    >instagram
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="section-footer__right">
+            <li class="section-footer__right">
+              <p class="section-footer__right-copyright">
+                © Все права защищены. 2024
+              </p>
+            </li>
+            <li class="section-footer__right">
+              <p
+                class="section-footer__right-copyright section-footer__right-policy"
+              >
+                политика обработки данных
+              </p>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </main>
+    <script src="js/burger.js"></script>
+  </body>
+</html>

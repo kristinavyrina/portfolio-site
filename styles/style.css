@@ -1,0 +1,102 @@
+/* HEADER*/
+@import url("../styles/header.css");
+
+/* PROJECTS */
+@import url("../styles/projects.css");
+
+/* COMPETENCIES */
+@import url("../styles/competencies.css");
+
+/* SERVICES*/
+@import url("../styles/services.css");
+
+/* CONTACTS */
+@import url("../styles/contacts.css");
+
+/* FOOTER */
+@import url("../styles/footer.css");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "IMB Plex Mono", monospace;
+  background: #17252a;
+  font-weight: 400;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1150px;
+}
+
+@media (max-width: 1199px) {
+  .container {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    padding-left: 13px;
+    padding-right: 13px;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+a {
+  letter-spacing: -0.03em;
+  color: #feffff;
+}
+
+a {
+  text-decoration: none;
+  color: #feffff;
+}
+
+h2 {
+  font-size: 55px;
+  line-height: 62px;
+  color: #feffff;
+}
+
+@media (max-width: 1199px) {
+  h2 {
+    font-size: 45px;
+    line-height: 48px;
+  }
+}
+
+@media (max-width: 767px) {
+  h2 {
+    font-size: 40px;
+    line-height: 49px;
+  }
+}
+
+h3 {
+  font-size: 50px;
+  line-height: 56px;
+  color: #feffff;
+}
+
+@media (max-width: 1199px) {
+  h3 {
+    font-size: 48px;
+    line-height: 49px;
+  }
+}
+
+@media (max-width: 767px) {
+  h3 {
+    font-size: 38px;
+    line-height: 39px;
+  }
+}
